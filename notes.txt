@@ -1,0 +1,7 @@
+* make sure you'r using the 'null' field attribute in microwave.
+* use 'get_absolute_url' model method in microwave
+* use 'help_text' field attribute in microwave
+* use models.ForiegnKey where appropriate in microwave
+* use 'on_delete' field for ForiegnKey (and presumably ManyToMany fields) in microwave
+* setup admin site for microwave
+* superuser password 'flashover'
