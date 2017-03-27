@@ -30,12 +30,4 @@ class BookInstanceAdmin(admin.ModelAdmin):
         ('Availability', {'fields': ('status', 'due_back')})
     )
 
-
-
-# admin.site.register(Book)
-# admin.site.regester(Book, BookAdmin)
-# admin.site.register(Author)
-# admin.site.register(Author, AuthorAdmin)
 admin.site.register(Genre)
-# admin.site.register(BookInstance)
-# admin.site.register(BookInstance, BookInstanceAdmin)
